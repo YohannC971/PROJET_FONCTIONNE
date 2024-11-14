@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - C:/Users/yohan/OneDrive/Bureau/M2MIAGE/PROJET_FONCTIONNE/comparator/django_server:/app
+      - ./django_server:/app
     ports:
       - "9000:9000"
     environment:
